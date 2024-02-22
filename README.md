@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# *Em Desenvolvimento - CUIDADO*
+> *Currently in development - CAUTION*
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### UPDATES: 19/02/2023 - 
+# Em progresso: Implementação de TypeScript
+> In progress: TypeScript implementation
 
-## Available Scripts
+# Setup inicial do CI/CD (conectado ao GCP)
+> Inicial CI/CD setup (connected to GCP) 
 
-In the project directory, you can run:
+## NÃO UTILIZE O WEB SCRAPING DE MANEIRA IRRESPONSÁVEL. Pode provocar sobrecargas e falhas no sistema TabNet.
+> DO NOT USE THE WEB SCRAPING IRRESPONSIBLY. For it can overload the TabNet system.
 
-### `npm start`
+### Este projeto tem o objetivo de disponibilizar dados estatísticos e análises acerca de dados saúde pública providos pelo DataSUS. Apesar dos dados coletados serem públicos, Por favor evite executar excessivamente o web scraping para previnir possíveis danos/lag/problemas de performance na plataforma. Eu apenas executei o web scraping uma vez afim de coletar os dados. Uma vez finalizada a coleta, qualquer query foi realizada de um banco de dados distinto.
+> This project aims to make available a statistical analysis of public healthcare data provided by DataSUS. Though the data scraped is public, refrain from excessively executing scraping scripts in order to prevent damages/lag/performance issues to the system. I only scraped the data once in order to gather it. Once that was done, every query was executed from a distinct database.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Haverá muitos updates mais, incluindo mais dados, análises e funcionalidades. Não disponibilizarei os outros códigos que foram utilizados para coletar dados afim de poupar o sistema DataSUS.
+> There will be many more updates, including more data, analysis and funtionalities. I won't make available the other scripts that were used to gather the data so as to save the DataSUS's web system from any issues.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#Prints do sistema atualmente
+## Barra lateral com categorias e Cabeçalho com autenticação, configurações e ajuda.
+> Sidebar with categories and Header including authentication, settings and help.
+![Captura de tela 2024-02-12 184628](https://github.com/TarsoLucas/DataSUS_Statistical_Analysis/assets/95001225/23dbf899-134a-4194-a278-a521d79855fe)
+![Captura de tela 2024-02-12 185011](https://github.com/TarsoLucas/DataSUS_Statistical_Analysis/assets/95001225/142d6796-44ea-43da-9194-1d3801be2909)
+## Funcionalidade de retração de barra lateral com efeito de texto flutuante.
+> Retracting sidebar with floating text effect.
+![Captura de tela 2024-02-09 221952](https://github.com/TarsoLucas/DataSUS_Statistical_Analysis/assets/95001225/0e1094f4-9d88-4911-8611-44fa940b025b)
+![Captura de tela 2024-02-12 185210](https://github.com/TarsoLucas/DataSUS_Statistical_Analysis/assets/95001225/fd4372b7-1665-429e-a609-e6c6eede0f38)
+## Renderização de gráficos dos dados coletados.
+> Rendering data in charts.
+![Captura de tela 2024-02-12 184657](https://github.com/TarsoLucas/DataSUS_Statistical_Analysis/assets/95001225/b9809b6f-1f03-4acd-95d2-a3bb1dc64aea)
+![Captura de tela 2024-02-12 185225](https://github.com/TarsoLucas/DataSUS_Statistical_Analysis/assets/95001225/401907f7-6c22-4cf2-81c0-245355079c2a)
+![Captura de tela 2024-02-12 184729](https://github.com/TarsoLucas/DataSUS_Statistical_Analysis/assets/95001225/f2b929f3-f120-47ec-addb-aeeffa1682f9)
+![Captura de tela 2024-02-12 184720](https://github.com/TarsoLucas/DataSUS_Statistical_Analysis/assets/95001225/d2d8cdba-4f13-4812-8b86-eb891ab61c8e)
+![Captura de tela 2024-02-12 184709](https://github.com/TarsoLucas/DataSUS_Statistical_Analysis/assets/95001225/2cddd6b6-e830-4dd9-b4da-c59f6025b65b)
+![Captura de tela 2024-02-12 184702](https://github.com/TarsoLucas/DataSUS_Statistical_Analysis/assets/95001225/d3f1b9ba-ed6f-4382-b69c-c9f3dd9a6192)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
